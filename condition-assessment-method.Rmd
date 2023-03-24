@@ -1,0 +1,310 @@
+---
+title: "Condition Assessment Method"
+output: distill::distill_article
+---
+
+## Introduction
+
+This document sets out a proposed method for carrying out condition assessments in England to support biodiversity net gain (BNG) assessments.  The aim is to standardise the approach to carrying out condition assessments to aid repeatability and replicability.  This will ensure that ecologists and regulators can be confident that condition assessments have been carried out to a consistent and appropriate standard.
+
+It will also facilitate data sharing and scrutiny by providing a standard set of variables to record in the field and a standard way to store and share these data.
+
+The philosophy here is: collect data first, assess condition second.
+
+There is danger in trying to decide whether a criterion is passed or failed in real time in the absence of objective data (quantified where possible). It is better to collect data on which to base an assessment.  Where possible, this could be automated based on the data, but it may require a more nuanced judgement based on experience.
+
+## Contributing to this method document
+This is very much a work in progress!
+
+Digital Ecology has made this an open document – we hope that developing a method for habitat condition assessment will be a collaborative project. We invite people to contribute their ideas and help improve and shape this document.
+
+Digital Ecology has made this document available on [Codeberg](https://codeberg.org/Digital-Ecology/habitat-condition-method) under a CC-BY-SA 4.0 licence. You are welcome to download it and edit it and then upload that edited version to Codeberg. You will need to make a request to merge your changes with the main document via a pull request. Digital Ecology will then review this and merge the changes you have proposed where appropriate. To discuss the contents of the document you can raise an issue on Codeberg. Issues could be proposed changes, errors, omissions or other points worthy of discussion before making changes to the text.
+
+You can also make comments and suggestions via email (habitatcondition@digital-ecology.co.uk) or on LinkedIn, where this document was first announced.
+
+## Condition assessments
+
+There are a total of 25 different habitats for which there are condition assessments, listed below. For many there are proposals for how to carry out data collection to undertake a condition assessment. For many others, there are questions posed about how the criterion is practicably measured. Most of the coastal and freshwater habitats are left blank as this is not my area of expertise!
+
+    1. Coastal
+    2. Coastal lagoons
+    3. Coastal saltmarsh
+    4. Ditch
+    5. Grassland – Low distinctiveness
+    6. Grassland Medium – Very High distinctiveness
+    7. Heathland
+    8. Hedgerow
+    9. Intertidal biogenic reefs
+    10. Intertidal hard structures
+    11. Intertidal seagrass
+    12. Intertidal sediment
+    13. Lake
+    14. Limestone Pavement
+    15. Line of Trees
+    16. Orchard
+    17. Pond
+    18. Rocky Shore
+    19. Scrub
+    20. Sparsely Vegetated Land
+    21. Urban
+    22. Urban trees
+    23. Wetland
+    24. Woodland
+    25. Wood-pasture and Parkland
+
+Proposed methods, where applicable, are set out below.
+
+### 1 – Coastal
+
+
+### 2 – Coastal lagoons
+
+
+### 3 – Coastal saltmarsh
+
+
+### 4 – Ditch
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The ditch is of good water quality, with clear water (low turbidity) indicating no obvious signs of pollution. | Measure using a Secchi disk. How to define good vs poor in this? |
+| 2 | A range of emergent, submerged and floating leaved plants are present. As a guide >10 species of emergent, floating or submerged plants in a 20 m ditch length. | Survey minimum 4x 5m sections. Pass if average >10 species per 20 m, fail if not. |
+| 3 | There is less than 10% cover of filamentous algae and/or duckweed (these are signs of eutrophication).| Survey minimum 4x 5m sections and estimate cover.|
+| 4 | A fringe of marginal vegetation is present along more than 75% of the ditch. | Measure in minimum 4x 5m sections.|
+| 5 | Physical damage evident along less than 5% of the ditch, such as excessive poaching, damage from machinery use or storage, or any other damaging management activities. | Measure in minimum 4x 5m sections. |
+| 6 | Sufficient water levels are maintained; as a guide a minimum summer depth of approximately 50 cm in minor ditches and 1 m in main drains. | Measure water levels in summer with a ruler! |
+| 7 | Less than 10% of the ditch is heavily shaded. | Define ‘heavily’. Measure in minimum 4x 5m sections. |
+| 8 | There is an absence of non-native plant and animal species. | Record plants in minimum 4x 5m sections. How are INNS animals detected? |
+
+Summary:
+Minimum of 4x 5m sections to collect data for 2,3,4,5,7, 8
+Additional work needed for animals in criterion 8. How are they detected? eDNA – considerable cost for a potentially large no of ditches.
+6 means summer survey, or precautionary approach is to record a fail.
+
+Analysis of Ethos Environmental Planning Ltd ditch data from 2022 (n = 64) shows average ditch length = 206 m, shortest = 12m, longest = 913m. Only one ditch less than 20m.
+
+### 5 – Grassland (Low distinctiveness)
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | There must be 6-8 species per m 2 . If a grassland has 9 or more species per m 2 it should be classified as a medium distinctiveness grassland habitat type. NB - this criterion is essential for achieving moderate condition. | Minimum of 3x 2m x 2m quadrat, record species present in each |
+| 2 | Sward height is varied (at least 20% of the sward is less than 7 cm and at least 20% is more than 7 cm) creating microclimates which provide opportunities for insects, birds and small mammals to live and breed. | Minimum 10x drop disc samples. |
+| 3 | Some scattered scrub (including bramble) may be present, but scrub accounts for less than 20% of total grassland area. Note - patches of shrubs with continuous (more than 90%) cover should be classified as the relevant scrub habitat type. | Minimum 3x 10m x 10m quadrats |
+| 4 | Physical damage is evident in less than 5% of total grassland area. Examples of physical damage include excessive poaching, damage from machinery use or storage, erosion caused by high levels of access, or any other damaging management activities. | Minimum 3x 10m x 10m quadrats |
+| 5 | Cover of bare ground is between 1% and 10%, including localised areas (for example, a concentration of rabbit warrens). | Minimum of 3x 2m x 2m quadrats, record bare ground |
+| 6 | Cover of bracken is less than 20%. | Minimum 3x 10m x 10m quadrats |
+| 7 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981). | Minimum of 3x 2m x 2m quadrat, record species present in each. |
+
+Summary:
+Minimum 3x 2m x 2m quadrats to collect data for 1,5,7
+Minimum 3x 10m x 10m quadrats for 3,4,6
+10 x drop disc for 2
+
+
+### 6 – Grassland (Medium – Very High distinctiveness)
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The appearance and composition of the vegetation closely matches characteristics of the specific grassland habitat type (see UKHab definition). Wildflowers, sedges and indicator species for the specific grassland habitat type are very clearly and easily visible throughout the sward. NB - This criterion is essential for achieving moderate condition for non-acid grassland types only. | Redundant criterion - ignore |
+| 2 | Sward height is varied (at least 20% of the sward is less than 7 cm and at least 20% is more than 7 cm) creating microclimates which provide opportunities for insects, birds and small mammals to live and breed. | Minimum 10x drop disc samples. |
+| 3 | Cover of bare ground is between 1% and 5%, including localised areas, for example, rabbit warrens. | Minimum of 3x 2m x 2m quadrats, record bare ground |
+| 4 | Cover of bracken is less than 20% and cover of scrub (including bramble) is less than 5%. | Minimum 3x 10m x 10m quadrats |
+| 5 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981). Combined cover of species indicative of sub-optimal condition 1 and physical damage (such as excessive poaching, damage from machinery use or storage, damaging levels of access, or any other damaging management activities) accounts for less than 5% of total area. | Minimum of 3x 2m x 2m quadrat, record species present in each. |
+| 6 | There are greater than 9 species per metre squared. NB - This criterion is essential for achieving good condition (non-acid grassland types only). | Minimum of 3x 2m x 2m quadrat, record species present in each. |
+
+Notes: this condition assessment could better align with the low distinctiveness grassland condition assessment above.
+
+Summary:
+Minimum 3x 2m x 2m quadrats for criteria 3,5,6
+Minimum 3x 10m x 10m quadrats for criterion 4
+Minimum 10x drop disc samples for criterion 2
+
+
+### 7 – Heathland
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The appearance and composition of the vegetation closely matches characteristics of the specific heathland habitat type (see UKHab definition linked above). Indicator shrubs, grasses, herbs and lower plants for the specific heathland habitat type are very clearly and easily visible. NB - this criterion is essential for achieving good condition. | Redundant criterion - ignore. |
+| 2 | There are at least two dwarf shrub species frequent, and cover of dwarf shrubs is between 25-75% for Lowland heathland, 50-75% for upland dry heath, or >20% for upland wet heath. NB - this criterion is essential for achieving good condition. | Minimum of 3x 2m x 2m quadrat, record species present in each. |
+| 3 | All age classes (pioneer, degenerate and mature) present with at least 10% pioneer heather in the lowlands or at least 10% degenerate/mature in the uplands. NB - this criterion is essential for achieving good condition. | Minimum of 3x 2m x 2m quadrat, record classes present in each. |
+| 4 | Unshaded bare ground is between 1-10%. NB - this criterion is essential for achieving good condition. | Minimum of 3x 2m x 2m quadrat, record bare ground in each. |
+| 5 | No signs disturbance of sensitive areas, including managed burns. | Sensitive areas are defined. Map them and record disturbance, if any. |
+| 6 | No more than 33% of heather shoots should be grazed, or flowering heather plants are at least frequent in autumn. | Survey in autumn. Minimum of 3x 2m x 2m quadrat, record heather grazing in each. |
+| 7 | There is an absence of invasive non-native species listed on Schedule 9 of WCA, 1981, or shallon Gaultheria shallon, and there is less than 5% cover of bracken Pteridium aquilinum. | Non-natives / Shallon - Minimum of 3x 2m x 2m quadrat, record species present in each. Bracken – minimum 3x 10m x 10m quadrats. |
+| 8 | Cover of scattered trees and/or scrub 3 should be less than 20% for upland heaths; less than 15% for lowland dry heaths; and less than 10% for lowland wet heaths. | Minimum 3x 10m x 10m quadrats. |
+| 9 | No signs of any damaging activities or contamination to the habitat such as: artificial drains, peat extraction, silt, leachate or eutrophication. | Whole site survey to record presence / absence via target notes. |
+
+Summary:
+Minimum of 3x 2m x 2m quadrat for criteria 2,3,4,6,7
+Minimum 3x 10m x 10m quadrats for criteria 7,8
+Whole site survey, mapping and target notes for criteria 5,9
+
+
+### 8 - Hedgerow
+
+
+### 9 – Intertidal biogenic reefs
+
+
+### 10 – Intertidal hard structures
+
+
+### 11 – Intertidal seagrass
+
+
+### 12 – Intertidal sediment
+
+
+### 13 - Lake
+
+
+### 14 – Limestone pavement
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | Cover of typical emergent pavement flora and clint-top (sic) vegetation should account for at least 25% of total vegetation cover (i.e. excluding bare rock). | Minimum of 3x 2m x 2m quadrat, record species and % cover. |
+| 2 | Cover of species indicative of sub-optimal condition less than 1%. | Minimum of 3x 2m x 2m quadrat, record species and % cover. |
+| 3 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981) and species indicative of sub-optimal condition 1 make up less than 5% of vegetated ground cover. | Duplication of sub-optimal species here, with different % target! Minimum of 3x 2m x 2m quadrat, record species and % cover. |
+| 4 | Less than 25% of live leaves (broadleaved plants), fronds (ferns) or shoots (dwarf shrubs) show signs of grazing or browsing. | Minimum of 3x 2m x 2m quadrat, record % plants grazed / browsed. |
+| 5 | There should be no evidence of damage to the pavement surface.| Minimum of 3x 2m x 2m quadrat. |
+
+Summary:
+Minimum of 3x 2m x 2m quadrats addresses all criteria
+
+
+### 15 – Line of Trees
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | More than 70% of trees are native species. | Survey every tree in line. OR Sample at least 20% of trees in line and record species. |
+| 2 | Tree canopy is predominantly continuous with gaps in canopy cover making up <10% of total area and no individual gap being >5 m wide. | Measure gaps in canopy. |
+| 3 | Includes one or more mature or veteran tree. | Record mature / veteran trees. |
+| 4 | There is an undisturbed naturally vegetated strip of at least 6 m on both sides to protect the line of trees from farming and other anthropogenic operations. | Measure width of vegetated strip. |
+| 5 | At least 95% of the trees are in a healthy condition (excluding veteran features valuable for wildlife). There is little or no evidence of an adverse impact on tree health by damage from livestock or wild animals, pests or diseases, or human activity. | Record tree health for every tree. OR Sample at least 20% of trees in line and record tree health. |
+
+Summary:
+Record every tree OR sample 20% of trees for criteria 1,3,5
+Measure canopy gaps for criterion 2
+Measure width of vegetated strip for criterion 4
+
+### 16 – Orchard
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | Presence of ancient and / or veteran trees. | Record number of ancient / veteran trees. |
+| 2 | Less than 5% of fruit trees are smothered by scrub. Small patches of dense scrub and/or scattered scrub growing between trees can be beneficial to biodiversity, however these should occupy less than 10% of ground cover.| Identify and count any trees covered by scrub. Minimum 3x 10m x 10m quadrats to record scrub cover. |
+| 3 | There is evidence of formative and/or restorative pruning to maintain longevity of trees. | Survey all trees for pruning. OR Sample of at least 20% of trees. |
+| 4 | Presence of standing and/or fallen dead wood: all mature trees have standing or fallen branches, stems and stumps greater than 10 cm diameter associated with them. | Survey all mature trees for deadwood. OR Sample of at least 20% of trees. |
+| 5 | At least 95% of the trees are free from damage caused by humans or animals e.g. browsing, bark stripping or rubbing on non-adjusted ties. | Survey all trees for damage. OR Sample of at least 20% of trees. |
+| 6 | Sward height is varied (between 5 cm and 30 cm) and small patches of bare ground are present creating structural diversity. Up to 10% cover of patches of tall herb vegetation may be present. | Minimum 10x drop disc samples. Minimum of 3x 2m x 2m quadrats, record bare ground. Minimum 3x 10m x 10m quadrats, record tall herb vegetation. |
+| 7 | Species richness of the grassland is equivalent to a medium, high, or very high distinctiveness grassland. | UKHab survey of grassland. |
+| 8 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981) and species indicative of sub-optimal condition 3 make up less than 10% of ground cover. | Minimum of 3x 2m x 2m quadrats, record species present. |
+
+Summary:
+Minimum of 3x 2m x 2m quadrats for criteria 6,8
+Minimum 3x 10m x 10m quadrats for criteria 2,6
+Survey all / 20% trees for criteria 1,2,3,4,5
+UKHab grassland survey for criterion 7
+
+### 17 – Pond
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The pond is of good water quality, with clear water (low turbidity) indicating no obvious signs of pollution. Turbidity is acceptable if the pond is grazed by livestock. | Measure using a Secchi disk. How to define good vs poor in this? |
+| 2 | There is semi-natural habitat (i.e. moderate distinctiveness or above) for at least 10 m from the pond edge. | Record habitat in 10m zone around pond. |
+| 3 | Less than 10% of the pond is covered with duckweed or filamentous algae. | 10m x 10m quadrats? Grid site and record presence/absence in each? Estimate? |
+| 4 | Pond not artificially connected via stream/ditches/pipework. | Identify any artificial connections. |
+| 5 | Water levels fluctuate naturally; absence of dams/pumps/pipework. | Identify any dams/pumps/pipework. |
+| 6 | Absence of non-native plant/animal species. | Record plant species present. How to do this for animals? |
+| 7 | No artificial fish stocking. Fish present are native at low densities. | May be able to observe stocked fish. In the absence of stocked fish, how is the presence of native fish and their density ascertained? Netting? |
+|   | For non-woodland ponds | |
+| 8 | Plant cover >= 50% cover in water <3m deep. | First identify water <3m deep via measuring water depth with a ruler. Then estimate cover of plants. How? |
+| 9 | Surface <=50% shaded by bankside vegetation. | Photograph pond and record shaded area? Grid pond and record shaded grid squares? |
+
+
+### 18 – Rocky shore
+
+
+### 19 – Scrub
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | Habitat is representative of UKHab description (where in its natural range). There are at least three woody species, with no one species comprising more than 75% of the cover (except common juniper, sea buckthorn or box, which can be up to 100% cover). | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 2 | There is a good age range – all of the following are present: seedlings, young shrubs and mature shrubs. | Minimum of 3x 2m x 2m quadrats, record age classes of shrub species. |
+| 3 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981) and species indicative of sub-optimal condition make up less than 5% of ground cover. | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 4 | The scrub has a well-developed edge with scattered scrub and tall grassland and/or herbs present between the scrub and adjacent habitat(s). | Record presence of edge habitat, grasses, herbs and scrub.This isn’t very well defined. |
+| 5 | There are clearings, glades or rides present within the scrub, providing sheltered edges. | Record presence / absence of clearings/glades/rides. |
+
+
+### 20 – Sparsely vegetated land
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The appearance and composition of the vegetation closely matches characteristics of the specific sparsely vegetated habitat type (see UKHab definition linked above). Indicator species for the specific sparsely vegetated habitat type are very clearly and easily visible. | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 2 | Cover of bracken, scrub and trees less than 25%. | 10m x 10m quadrats? Grid site and record presence/absence in each? Estimate? |
+| 3 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981) and species indicative of sub-optimal condition 1 make up less than 5% of vegetated ground cover. | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 4 | Vegetation cover of vascular and non-vascular plants between 5 and 50%. | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+
+
+### 21 – Urban
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | Vegetation structure is varied, providing opportunities for insects, birds and bats to live and breed. A single structural habitat component / vegetation type should not account for more than 80% of the total habitat area. | Minimum 10x drop disc samples. Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 2 | There is a diverse range of flowering plant species, providing nectar sources for insects. These species may be either native, or non-native but beneficial to wildlife. NB - To achieve GOOD condition, criterion 2 must be satisfied by native species only (rather than non-natives beneficial to wildlife). Note that Biodiverse green roofs are exempt from this requirement, and can include non-native sedums, as set out in footnote 1. | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+| 3 | Invasive non-native species (Schedule 9 of WCA) cover less than 5% of total vegetated area. NB - To achieve GOOD condition, criterion 3 must be satisfied by a complete absence of invasive non-native species (rather than <5% cover). | Minimum of 3x 2m x 2m quadrats, record species and % cover. |
+|   | For Open mosaic habitat in previously developed land only. | |
+|4a | The site shows spatial variation, forming a mosaic of at least four early successional communities (a) to (h) PLUS bare substrate AND pools. (a) annuals; (b) mosses/liverworts; (c) lichens; (d) ruderals; (e) inundation species; (f) open grassland; (g) flower-rich grassland; (h) heathland. | Map bare substrate, pools and any other habitat patches on the site. |
+|   | For Bioswale and SUDS only. | |
+|4b | The water table is at or near the surface throughout the year. This could be open water or saturation of soil at the surface. | How does one record the water table? Presence of waterlogged soils? Most important that this is recorded in late summer / early autumn which is the driest time of year. |
+|   | For Green roofs only. | |
+|4c1| Intensive green roofs – have a minimum of 50% native and non-native wildflowers - 70% of the roof area is soil and vegetation (including water features). | Minimum of 3x 2m x 2m quadrats, record species and % cover of plants and bare ground. |
+|4c2| Biodiverse green roofs - have a varied depth of 80 - 150mm at least 50% is at 150mm and is planted and seeded with wildflowers and sedums or is pre-prepared with sedums and wildflowers. To achieve Good condition some additional habitat, such as sand piles, logs etc. should be present. | 10 x measurements of substrate depth. Minimum of 3x 2m x 2m quadrats, record species and % cover record presence of additional habitats (sand piles, logs etc.) |
+
+
+### 22 – Urban trees
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The tree is a native species (or more than 70% within the block are native species). | Record species of tree(s). |
+| 2 | The tree canopy is predominantly continuous, with gaps in canopy cover making up <10% of total area and no individual gap being >5 m wide (individual trees automatically pass this criterion). | Record the length/width of any gaps in canopy. |
+| 3 | The tree is mature or veteran (or more than 50% within the block are mature or veteran). | Record girth and veteran features for each tree. |
+| 4 | There is little or no evidence of an adverse impact on tree health by anthropogenic activities such as vandalism or herbicide use. There is no current regular pruning regime, so the trees retain >75% of expected canopy for their age range and height. | Record evidence of anthropogenic activities. Record any pruning. |
+| 5 | Micro-habitats for birds, mammals and insects are present e.g. presence of deadwood, cavities, ivy or loose bark. | Record presence of microhabitats. |
+| 6 | More than 20% of the tree canopy area is oversailing vegetation beneath. | Map location of habitat beneath trees to estimate area of canopy over vegetation (GIS). |
+
+
+### 23 – Wetland
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | The water table is at or near the surface throughout the year, this could be open water or saturation of soil at the surface. There is no artificial drainage, unless specifically to maintain water levels as specified above. NB - this criterion is essential for achieving good condition. | How do you do this? Need to measure this in summer at the driest time of year. |
+| 2 | The appearance and composition of the vegetation closely matches characteristics of the specific wetland habitat type (see UKHab definition linked above). Indicator species for the specific wetland habitat type are very clearly and easily visible. | Minimum of 3x 2m x 2m quadrats, record species % cover . |
+| 3 | The water supplies (groundwater, surface water and/or rainwater) to the wetland are of good water quality, with clear water (low turbidity) indicating no obvious signs of pollution. | How to do this? |
+| 4 | Cover of scrub and scattered trees less than 10%. | 10m x 10m quadrats? Grid site and record presence/absence in each? Estimate? |
+| 5 | Cover of bare ground less than 5%. | Minimum of 3x 2m x 2m quadrats, record % cover of bare ground. |
+| 6 | There is an absence of invasive non-native species (as listed on Schedule 9 of WCA, 1981) and species indicative of sub-optimal condition 1 make up less than 5% of ground cover. | Minimum of 3x 2m x 2m quadrats, record species % cover. |
+|   | For Fen and Purple moor grass and rush pasture only | |
+|7a | No more than 25% of the fen area has a continuous cover of litter (i.e. dead vegetation) preventing regeneration. | Minimum of 3x 2m x 2m quadrats, record % cover of litter. |
+|   | For Bog habitat only. | |
+|7b | Sphagnum and cottongrasses are at least frequent. Cover of ericaceous dwarf-shrubs 2 is less than 75%. | Minimum of 3x 2m x 2m quadrats, record % cover of plants. |
+|   | For Reedbed habitat only | |
+|7c | The reedbed has a diverse structure with between 60 and 80% reeds. Other areas may include open water (at least 10%), species-rich fen and/or wet woodland. | 10m x 10m quadrats? Grid site and record presence/absence in each? Estimate? |
+|   | For Floodplain wetland mosaic (CFGM) only. | |
+|7d | All ditches recorded within the habitat achieve Good condition as assessed using the Ditch condition sheet. | See Ditch condition above. |
+
+
+### 24 – Woodland
+
+
+### 25 – Wood-pasture & Parkland
+
+|   | Criterion | Method |
+|---|-----------|--------|
+| 1 | Presence of ancient and / or veteran trees. | Record girth and veteran features for each qualifying tree. |
+| 2 | Trees are of a range of different ages to ensure replacement. Three age classes are present and must include at least one of the following: mature, late-mature, ancient or veteran trees. | Record age classes of all trees. |
+| 3 | Presence of standing and / or fallen deadwood: **Wood-pasture** - All ancient and veteran trees have standing deadwood, large dead branches, stems and stumps associated with them. **Parkland** - 80% of ancient and veteran trees have standing deadwood, large dead branches, stems and stumps associated with them.| Record standing in all eligible trees and fallen deadwood. |
+| 4 | There is little or no evidence of an adverse impact on tree health by anthropogenic activities, livestock or wild animals, or pests or diseases (e.g. no evidence of poaching, nettles, ground compaction, bare ground under trees or grazing damage to bark and roots). | Record presence of any adverse impact on trees. |
+| 5 | Ground cover comprises semi-natural grassland or heathland. | Map ground cover vegetation. |
+| 6 | Grassland or heathland habitat is subject to an appropriate management regime: **Grassland** - Sward height is varied (at least 20% of the sward is less than 7 cm and at least 20 per cent is more than 7 cm) creating microclimates which provide opportunities for insects, birds and small mammals to live and breed. **Heathland** - There is a range of age classes of heather present, with the following proportions: pioneer heather 10-40%, building/mature heather 20-80%, degenerate heather <30% and dead heather <10%. | See grassland and heathland methods. |
+

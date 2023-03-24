@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html>
+<head><title>Simple BNG unit calculator</title>
+
+<style>
+
+.area {
+  border-style: 1px solid black;
+}
+
+.units, .target, .punits, .offset, .cost, .income {
+  border-style: none;
+}
+
+table {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #85a330;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+}
+
+body {
+  padding: 20px;
+}
+
+</style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+
+
+</head>
+
+<body>
+
+<h1>Simple BNG unit calculator</h1><br>
+
+  <table>
+  <tr>
+    <th>Habitat</th>
+    <th>Area (ha)</th>
+    <th>Units</th>
+    <th>10% target</th>
+    <th>Retained habitat (ha)</th>
+    <th>Units delivered</th>
+    <th>Offset units</th>
+    <th>Unit cost (£)</th>
+  </tr>
+  <tr>
+    <td>Modified grassland</td>
+    <td><input type="number" value="0" class="area" name="userinput" id="area_mod"/></td>
+    <td><input type="number" readonly value="0" class="units" name="result" id="units_mod"/></td>
+    <td><input type="number" readonly value="0" class="target" id="target_mod"/></td>
+    <td><input type="number" value="0" class="retained" name="userinput" id="retained_mod"/></td>
+    <td><input type="number" readonly value="0" class="punits" id="punits_mod"/></td>
+    <td><input type="number" readonly value="0" class="offset" id="offset_mod"/></td>
+    <td><input type="number" readonly value="0" class="cost" id="cost_mod"/></td>
+  </tr>
+  <tr>
+    <td>Other neutral grassland</td>
+    <td><input type="number" value="0" class="area" name="area" id="area_ong"/></td>
+    <td><input type="number" readonly value="0" class="units" id="units_ong"/></td>
+    <td><input type="number" readonly value="0" class="target" id="target_ong"/></td>
+    <td><input type="number" value="0" class="retained" id="retained_ong"/></td>
+    <td><input type="number" readonly value="0" class="punits" id="punits_ong"/></td>
+    <td><input type="number" readonly value="0" class="offset" id="offset_ong" /></td>
+    <td><input type="number" readonly value="0" class="cost" id="cost_ong"/></td>
+  </tr>
+  <tr>
+    <td>Arable</td>
+    <td><input type="number" value="0" class="area" name="area" id="area_arable"/></td>
+    <td><input type="number" readonly value="0" class="units" id="units_arable"/></td>
+    <td><input type="number" readonly value="0" class="target" id="target_arable"/></td>
+    <td><input type="number" value="0" class="retained" id="retained_arable"/></td>
+    <td><input type="number" readonly value="0" class="punits" id="punits_arable"/></td>
+    <td><input type="number" readonly value="0" class="offset" id="offset_arable"/></td>
+    <td><input type="number" readonly value="0" class="cost" id="cost_arable"/></td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td><input type="number" readonly value="0" class="area" id="area_total"/></td>
+    <td><input type="number" readonly value="0" class="units" id="units_total"/></td>
+    <td><input type="number" readonly value="0" class="target" id="target_total"/></td>
+    <td><input type="number" readonly value="0" class="retained" id="retained_total"/></td>
+    <td><input type="number" readonly value="0" class="punits" id="punits_total"/></td>
+    <td><input type="number" readonly value="0" class="offset" id="offset_total"/></td>
+    <td><input type="number" readonly value="0" class="cost" id="cost_total"/></td>
+  </tr>
+</table><br>
+
+
+</body>
+</html>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+
+
+<!-- this script calculates the units for each habitat type in the developer table -->
+<script id="rendered-js" >
+
+     function calcUnits()
+   {
+     let unit_multi={
+       modified: 4,
+       ong: 8,
+       arable: 2
+     };
+
+     let item_unit={}
+
+     item_unit.modified = ($("#area_mod").val() * unit_multi.modified )
+     $("#units_mod").val(item_unit.modified);
+
+     item_unit.ong = ($("#area_ong").val() * unit_multi.ong )
+     $("#units_ong").val(item_unit.ong);
+
+     item_unit.arable = ($("#area_arable").val() * unit_multi.arable )
+     $("#units_arable").val(item_unit.arable);
+
+
+     let total = Number((item_unit.modified + item_unit.ong + item_unit.arable).toFixed(2));
+
+
+     $("#units_total").val(total);
+
+   }
+
+   $(function()
+    {
+       $(".area").on("change keyup",calcUnits)
+   })
+</script>
+
+<!-- this script calculates the BNG target for each habitat in the developer table -->
+
+<script id="rendered-js">
+function calcTarget()
+{
+  let tenpercent = 1.1;
+  let item_target={}
+
+  item_target.modified = Number(($("#units_mod").val() * tenpercent).toFixed(2))
+  $("#target_mod").val(item_target.modified);
+
+  item_target.ong = Number(($("#units_ong").val() * tenpercent).toFixed(2))
+  $("#target_ong").val(item_target.ong);
+
+  item_target.arable = Number(($("#units_arable").val() * tenpercent).toFixed(2))
+  $("#target_arable").val(item_target.arable);
+
+  let total = Number((item_target.modified + item_target.ong + item_target.arable).toFixed(2))
+
+  $("#target_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".area").on("change keyup",calcTarget)
+})
+
+</script>
+
+
+<!-- this script calcualtes the proposed units for a site based on how much habitat is retained, in the developer table -->
+<script>
+function calcPunits()
+{
+
+  let unit_multi={
+    modified: 4,
+    ong: 8,
+    arable: 2};
+
+  let item_punits = {}
+
+  item_punits.mod = ($("#retained_mod").val() * unit_multi.modified)
+  $("#punits_mod").val(item_punits.mod);
+
+  item_punits.ong = ($("#retained_ong").val() * unit_multi.ong)
+  $("#punits_ong").val(item_punits.ong);
+
+  item_punits.arable = ($("#retained_arable").val() * unit_multi.arable)
+  $("#punits_arable").val(item_punits.arable);
+
+  let total = Number((item_punits.mod + item_punits.ong + item_punits.arable).toFixed(2))
+
+  $("#punits_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".retained").on("change keyup",calcPunits)
+})
+
+</script>
+
+<!-- this script calculates the offset required for each habitat type in the developer table -->
+<script>
+function calcOffset()
+{
+
+let item_offset = {}
+
+item_offset.mod = Number(($("#target_mod").val() - $("#punits_mod").val()).toFixed(2))
+$("#offset_mod").val(item_offset.mod);
+
+item_offset.ong = Number(($("#target_ong").val() - $("#punits_ong").val()).toFixed(2))
+$("#offset_ong").val(item_offset.ong);
+
+item_offset.arable = Number(($("#target_arable").val() - $("#punits_arable").val()).toFixed(2))
+$("#offset_arable").val(item_offset.arable);
+
+let total = Number((item_offset.mod + item_offset.ong + item_offset.arable).toFixed(2))
+
+$("#offset_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".retained").on("change keyup",calcOffset)
+})
+
+</script>
+
+<!-- this script calculates the cost of the units required for each habitat in the developer table -->
+<script>
+function calcCost()
+{
+
+let unit_price = parseInt(20000);
+
+let item_cost = {}
+
+item_cost.mod = ($("#offset_mod").val() * unit_price)
+$("#cost_mod").val(item_cost.mod);
+
+item_cost.ong = ($("#offset_ong").val() * unit_price)
+$("#cost_ong").val(item_cost.ong);
+
+item_cost.arable = ($("#offset_arable").val() * unit_price)
+$("#cost_arable").val(item_cost.arable);
+
+let total = item_cost.mod + item_cost.ong + item_cost.arable
+
+$("#cost_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".retained").on("change keyup",calcCost)
+})
+
+</script>
+
+<!-- this script calculates areas, but I am not sure which ones! -->
+<script>
+function calcArea()
+{
+
+ let item_area = {}
+
+ item_area.mod = parseFloat($("#area_mod").val())
+ item_area.ong = parseFloat($("#area_ong").val())
+ item_area.arable = parseFloat($("#area_arable").val())
+
+ let total = Number((item_area.mod + item_area.ong + item_area.arable).toFixed(2));
+
+ $("#area_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".area").on("change keyup",calcArea)
+})
+
+</script>
+
+<!-- this script calculates the total area of retained habitat in the developer table (I think) -->
+<script>
+function calcRetained()
+{
+
+ let item_retained = {}
+
+ item_retained.mod = parseFloat($("#retained_mod").val())
+ item_retained.ong = parseFloat($("#retained_ong").val())
+ item_retained.arable = parseFloat($("#retained_arable").val())
+
+ let total = item_retained.mod + item_retained.ong + item_retained.arable;
+
+ $("#retained_total").val(total);
+
+}
+
+$(function()
+ {
+    $(".retained").on("change keyup",calcRetained)
+})
+
+</script>
+
+<!-- this script calculates the number of offset units required for each habitat in the developer table -->
+<script id="rendered-js" >
+
+     function calcOffUnits()
+   {
+     let unit_multi={
+       modified: 4,
+       ong: 8,
+       arable: 2
+     };
+     let item_unit={}
+
+     item_unit.modified = ($("#o_area_mod").val() * unit_multi.modified )
+     $("#o_units_mod").val(item_unit.modified);
+
+     item_unit.ong = ($("#o_area_ong").val() * unit_multi.ong )
+     $("#o_units_ong").val(item_unit.ong);
+
+     item_unit.arable = ($("#o_area_arable").val() * unit_multi.arable )
+     $("#o_units_arable").val(item_unit.arable);
+
+
+     let total = item_unit.modified + item_unit.ong + item_unit.arable;
+
+
+     $("#o_units_total").val(total);
+
+   }
+
+   $(function()
+    {
+       $(".area").on("change keyup",calcOffUnits)
+   })
+</script>

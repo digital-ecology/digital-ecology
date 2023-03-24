@@ -1,0 +1,25 @@
+name: "digital-ecology"
+title: "Digital Ecology"
+theme: theme.css
+description: |
+  digital-ecology
+output_dir: "_site"
+navbar:
+  logo:
+    image: images/digital-ecology.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Services"
+      href: services.html
+    - text: "Projects"
+      menu:
+        - text: "Condition Assessment Method"
+          href: condition-assessment-method.html
+        # - text: "BNG Quick Check"
+        #   href: bng-quick-check.html
+    - text: "About"
+      href: about.html
+    - text: "Contact"
+      href: contact.html
+output: distill::distill_article

@@ -1,0 +1,60 @@
+---
+title: "Services"
+output: distill::distill_article
+---
+Digital Ecology has provided services to a range of clients with different needs.
+Below we have provided some examples of our work that may inspire you.
+
+## Data & Analytics
+Data are a keystone of ecology and environmental science. Digital Ecology provides a range of services to help you collect, manage, analyse and present your data. For example:
+
+Some examples of our work with data are:
+
+- setting up digital data capture tools, reducing the time spent on manual data entry
+- creating databases for the efficient and effective storage of your valuable data
+
+- presenting data analysis via interactive online platforms, making data more accessible to stakeholders.
+
+Projects include:
+
+- analysing bird, butterfly and bat data from atlas projects and monitoring work for eNGOs and presenting it online
+- survey apps for reptile and habitat surveys
+
+## Workflows and automation
+
+One of the huge advantages of programming languages is the ability to automate tasks. This could include data cleaning, data analysis, and report production. Automation saves you time, reduces manual errors and facilitates reproducibility. 
+
+We are on a mission to turn repetitive data tasks into automated workflows, giving you more time to spend on creative solutions to environmental problems. Take advantage of modern data science tools to automate common data tasks, such as data cleaning, transformation and presentation
+
+Projects include:
+
+- automated production of standardised reports for sites
+- automated production of web pages
+- automated data analysis for bats, birds, and butterflies to facilitate annual updates
+
+## Training
+
+We provide training on QGIS and R for ecologists and environmental scientists.  We have delivered training for the Field Studies Council, the Association of Local Environmental Records Centres, the Wildlife Trusts, consultancies, eNGOs and more.
+
+Digital Ecology is very happy to develop bespoke courses to cover your training needs, as well as provide introductory training for groups.
+
+## Biodiversity Net Gain
+
+We specialise in biodiversity net gain (BNG), and in particular the digital tools to help. We help ecologists, local authority officers and developers understand biodiversity net gain, build tools to underpin robust assessments, and provide advice and training in delivering high quality projects and outputs.
+
+Projects include:
+
+- training, including condition assessments, reporting, quality assurance and report reviewing
+- digital survey apps for BNG data collection
+- quality assurance
+
+## LERC Services
+
+Local Environmental Records Centres (LERCs) are key custodians of biological records and other environmental data. Digital Ecology has helped LERCs with data management, cleaning, processing and reporting tasks. We have also provided training for LERC staff on R and QGIS.
+
+Projects include:
+
+- automated production of Local Wildlife Site citations
+- data search systems
+- digital technology review and strategy
+- training

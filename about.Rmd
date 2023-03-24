@@ -1,0 +1,19 @@
+---
+title: "Dr Dan Carpenter CEnv"
+image: "images/dan.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/dan-carpenter-cenv-057b512a"
+  - label: Codeberg
+    url: "https://codeberg.org/drdcarpenter"
+  - label: Email
+    url: "mailto:info@digital-ecology.co.uk"
+output:
+  postcards::trestles
+---
+ 
+I am a Digital Ecologist working at the interface of ecology and digital technology. I am interested in how digital tech can be harnessed to help deliver better biodiversity outcomes.
+
+I am also interested in biodiversity net gain methods and practice. I deliver training on BNG and help organisations develop methods and processes to deliver better outcomes for nature.
+
+I talk about BNG, QGIS, R, open source and data. I work on tools and systems that help people maximise the value of their data. Contact me to talk about any of that.
