@@ -6,7 +6,7 @@ description: |
 output_dir: "_site"
 navbar:
   logo:
-    image: images/digital-ecology.png
+    image: images/Icon.png
   right:
     - text: "Home"
       href: index.html
